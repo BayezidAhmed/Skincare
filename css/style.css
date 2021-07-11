@@ -1491,7 +1491,7 @@ a {
     font-size: 14px;
     color: #666;
 }
-.cat-item .cat-icon {
+.cat-icon {
     position: relative;
     text-align: center;
     margin: 15px auto;
@@ -1511,13 +1511,13 @@ a {
     -webkit-transition: all 0.5s ease-out 0s;
     cursor: pointer;
 }
-.cat-item .cat-icon:hover {
+.cat-icon:hover {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
     background: #eb747b;
 }
-.cat-item .cat-icon a {
+.cat-icon a {
     position: relative !important;
     color: #fff;
     transition: all 0.5s ease-out 0s;
@@ -1525,7 +1525,7 @@ a {
     display: block;
     background: transparent;
 }
-.cat-item .cat-icon::before {
+.cat-icon::before {
     pointer-events: none;
     position: absolute;
     z-index: -1;
@@ -1542,7 +1542,7 @@ a {
     -webkit-transition-property: -webkit-transform, opacity;
     transition-property: transform, opacity;
 }
-.cat-item .cat-icon:hover::before {
+.cat-icon:hover::before {
     opacity: 1;
     -webkit-transform: translateY(5px);
     -ms-transform: translateY(5px);
@@ -1637,6 +1637,7 @@ a {
 /* footer css start */
 #footer {
     padding-top: 100px;
+    background: ;
 }
 #footer .footer-extra-link .link-head h3 {
     font-size: 18px;
@@ -1677,43 +1678,9 @@ a {
     color: #666;
     padding: 7px 10px;
 }
-#footer .footer-extra-link ul li a.hover-style {
-    position: relative;
-    display: block;
-    padding-left: 0px;
-    transition: all 0.5s ease-out 0s;
-    -webkit-transition: all 0.5s;
-}
-#footer .footer-extra-link ul li a.hover-style::before {
-    pointer-events: none;
-    position: absolute;
-    z-index: -1;
-    content: '';
-    top: 100%;
-    left: 5%;
-    height: 10px;
-    width: 90%;
-    opacity: 0;
-    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, .35) 0%, rgba(0, 0, 0, 0) 80%);
-    background: radial-gradient(ellipse at center, rgba(0, 0, 0, .35) 0%, rgba(0, 0, 0, 0) 80%);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: -webkit-transform, opacity;
-    transition-property: transform, opacity;
-}
-#footer .footer-extra-link ul li a.hover-style:hover::before {
-    opacity: 1;
-    -webkit-transform: translateY(5px);
-    -ms-transform: translateY(5px);
-    transform: translateY(5px);
-}
-#footer .footer-extra-link ul li a.hover-style:hover {
-    opacity: 1;
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
-}
+
 .ft-reserve {
+    width: 100%;
     margin-top: 50px;
     display: block;
     background: #303030;
@@ -1761,6 +1728,13 @@ a {
     -webkit-transform: translateY(3px);
     -ms-transform: translateY(3px);
     transform: translateY(3px);
+}
+.ct-hover-style a::before{
+    display: none !important;
+    
+}
+a.before-none::before{
+    display: none !important;
 }
 /* footer css end */
 
