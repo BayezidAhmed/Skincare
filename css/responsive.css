@@ -1,0 +1,265 @@
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    #header .nav-link {
+        padding: 25px 15px !important;
+    }
+
+    #header.nav-fixed .nav-link {
+        padding: 25px 15px !important;
+    }
+
+    #header .nav-link.cart {
+        padding: 15px 15px !important
+    }
+
+    #header.nav-fixed .nav-link.cart {
+        padding: 15px 15px !important
+    }
+
+    #hero .hero-item .item-img {
+        max-width: 450px !important;
+    }
+
+    #collection .collection-pdt-img {
+        height: 100% !important;
+
+    }
+
+    #collection .collection-info {
+        padding: 200px 0 !important;
+    }
+
+    .gift-circle {
+        height: 325px !important;
+        width: 325px !important;
+    }
+
+    .top-viewed {
+        padding: 45px !important;
+    }
+
+    .count-down {
+        margin: 30px !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media only screen and (min-width:570px) and (max-width:767px) {
+    .mobile-design {
+        position: absolute !important;
+        top: 93px !important;
+        left: 0 !important;
+        right: 0 !important;
+        background: #fff !important;
+    }
+
+    .mobile-design .nav-link {
+        padding: 10px 20px !important;
+        border-bottom: 1px solid #eb747b;
+    }
+
+    .mobile-design .nav-link sub {
+        top: -1% !important;
+    }
+
+    .mobile-design .nav-link.login {
+        padding: 25px 0px !important;
+    }
+
+    #header.nav-fixed .mobile-design {
+        position: absolute !important;
+        top: 72px !important;
+        left: 0 !important;
+        right: 0 !important;
+        background: #fff !important;
+    }
+
+    #header.nav-fixed .mobile-design .nav-link {
+        padding: 10px 20px !important;
+        border-bottom: 1px solid #eb747b;
+    }
+
+    #header.nav-fixed .mobile-design .nav-link sub {
+        top: -1% !important;
+    }
+
+    #hero .hero-item .item-img {
+        max-width: 380px !important;
+    }
+
+    .slider-prepand-taxt h2 {
+        font-size: 36px !important;
+    }
+    #collection .collection-pdt-img{
+        height: auto !important;
+    }
+    .item-info {
+        left: 10% !important;
+        right: 10% !important;
+    }
+
+    #advertisement .advert-text {
+        padding: 115px 0 !important;
+        text-align: center !important;
+    }
+
+    .gift-circle {
+        margin: 0 auto !important;
+    }
+
+    #advertisement .advert-text::before {
+        right: -200px !important;
+    }
+
+    #advertisement .advert-text::after {
+        right: 0 !important;
+    }
+
+    .bg-border::before {
+        content: unset !important;
+    }
+
+    .newsltr-content .subscribe {
+        width: 90% !important;
+    }
+
+    #gift::before {
+        left: 0 !important;
+    }
+
+    #gift::after {
+        content: unset !important;
+    }
+
+    #footer .footer-extra-link ul li a::before {
+        content: unset !important;
+    }
+}
+
+@media only screen and (max-width:569px) {
+    #header.nav-fixed .tablet-logo{
+        display: none;
+    }
+    .nav-link.login {
+        padding: 12px 0 !important;
+    }
+
+    #header .mobile-design .nav-link.cart {
+        padding: 0 15px !important;
+    }
+    .nav-link.login .log-stl {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .mobile-design {
+        position: absolute !important;
+        top: 93px !important;
+        left: 0 !important;
+        right: 0 !important;
+        background: #fff !important;
+    }
+
+    .mobile-design .nav-link {
+        padding: 10px 20px !important;
+        border-bottom: 1px solid #eb747b;
+    }
+
+    .mobile-design .nav-link sub {
+        top: -1% !important;
+    }
+     #header.nav-fixed .mobile-design {
+        position: absolute !important;
+        top: 72px !important;
+        left: 0 !important;
+        right: 0 !important;
+        background: #fff !important;
+    }
+
+    #header.nav-fixed .mobile-design .nav-link {
+        padding: 10px 20px !important;
+        border-bottom: 1px solid #eb747b;
+    }
+
+    #header.nav-fixed .mobile-design .nav-link sub {
+        top: -1% !important;
+    }
+    #hero .hero-item .item-img {
+        max-width: 300px !important;
+    }
+    #collection .collection-pdt-img{
+        height: auto !important;
+    }
+    .slider-prepand-taxt h2 {
+        font-size: 28px !important;
+    }
+    .item-info {
+        left: 10% !important;
+        right: 10% !important;
+    }
+    #collection .collection-info{
+        margin: 15px 0 !important;
+    }
+    #advertisement .advert-text {
+        padding: 115px 0 !important;
+        text-align: center !important;
+    }
+
+    #advertisement .advert-text h2{
+        font-size: 28px !important;
+    }
+    .gift-circle {
+        margin: 0 auto !important;
+    }
+
+    #advertisement .advert-text::before {
+        right: -100px !important;
+        left: -100px !important;
+    }
+    #advertisement .advert-text::after {
+        left: 0 !important;
+        right: 0 !important;
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .custom-info {
+        padding: 20px 30px !important;
+    }
+    #best-sell .seller-tab-head ul li{
+        margin: 0 8px !important;
+    }
+    #gift::before {
+        left: 0 !important;
+    }
+
+    #gift::after {
+        content: unset !important;
+    }
+    .gift-circle{
+        height: 350px !important;
+        width: 350px !important;
+    }
+    .count-down {
+        margin: 15px 55px !important;
+    }
+    .bg-border::before {
+        content: unset !important;
+    }
+    .newsltr-content .subscribe {
+        width: 80% !important;
+    }
+    #footer .footer-extra-link ul li a::before {
+        content: unset !important;
+    }
+    .newsltr-content .subscribe{
+        margin: 0 auto;
+    }
+    .newsltr-content .subscribe .brows-btn a{
+        padding: 0 7px !important;
+        height: 50px !important;
+        line-height: 48px !important;
+    }
+    .newsltr-content .subscribe input{
+        height: 50px !important;
+    }
+        
+}
