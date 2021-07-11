@@ -1680,7 +1680,7 @@ a {
 #footer .footer-extra-link ul li a.hover-style {
     position: relative;
     display: block;
-    padding-left: 0;
+    padding-left: 0px;
     transition: all 0.5s ease-out 0s;
     -webkit-transition: all 0.5s;
 }
