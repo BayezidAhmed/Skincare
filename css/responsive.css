@@ -275,6 +275,9 @@
     .count-down {
         margin: 15px 55px !important;
     }
+     .count-down a::after{
+        content: unset !important;
+    }
 
     .bg-border::before {
         content: unset !important;
