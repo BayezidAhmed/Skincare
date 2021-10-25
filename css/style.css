@@ -1061,7 +1061,7 @@ a {
     -moz-transform: rotate(30deg);
     border-top-style: solid;
     top: 28px;
-    right: -39px;
+    right: -30px;
     transition: all .5s;
 }
 .count-down a::after {
