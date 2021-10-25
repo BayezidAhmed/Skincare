@@ -1060,7 +1060,7 @@ a {
     transform: rotate(30deg);
     -moz-transform: rotate(30deg);
     border-top-style: solid;
-    top: 24px;
+    top: 33px;
     right: -33px;
     transition: all .5s;
 }
