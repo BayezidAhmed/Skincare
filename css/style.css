@@ -1060,8 +1060,8 @@ a {
     transform: rotate(30deg);
     -moz-transform: rotate(30deg);
     border-top-style: solid;
-    top: 25px;
-    right: -33px;
+    top: 28px;
+    right: -39px;
     transition: all .5s;
 }
 .count-down a::after {
